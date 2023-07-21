@@ -1,131 +1,145 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #04A1BF;
-    text-align: center;
-    font-family: 'Yekan', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  font-family: "Yekan", sans-serif;
 }
 
 .container {
-    width: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.row{
-width: 90%;
-margin: 0 auto;
+.row {
+  width: 80%;
 }
 
 .intro {
-    margin: 30px 0px;
-    font-weight: bold;
+  margin: 30px 0px;
+  font-weight: bold;
 }
 
 h1 {
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-family: 'Yekan';
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Yekan";
 }
 
 p {
-    font-weight: 600;
-    font-family: 'Yekan';
+  font-weight: 600;
+  font-family: "Yekan";
 }
 
 #first {
-    color: #FFCD5D;
-    margin: 10px auto;
+  color: #feb619;
+  margin: 10px auto;
 }
 
 #second {
-    color: #51DF70;
-    margin: 10px auto;
-
+  color: #008b1e;
+  margin: 10px auto;
 }
 
 #third {
-    color: #025F70;
-    margin: 10px auto;
-
+  color: #05414c;
+  margin: 10px auto;
 }
 
 #userinput {
-    border: 2px solid #007a92;
-    font-size: 1.2rem;
-    padding: 10px;
-    border-radius: 20px;
-    min-width: 65%;
-    font-family: 'Yekan';
+  width: 80%;
+  border: 2px solid #05414c;
+  outline: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Yekan";
 }
 
 #enter {
-    border: 1px solid #007a92;
-    padding: 10px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    color: #04A1BF;
-    background-color: #025F70;
-    transition: all 0.75s ease;
-    -webkit-transition: all 0.75s ease;
-    -moz-transition: all 0.75s ease;
-    -ms-transition: all 0.75s ease;
-    -o-transition: all 0.75 ease;
-    font-weight: normal;
+  border: 2px solid #05414c;
+  outline: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: #000;
+  background-color: #fff;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal;
 }
 
 #enter:hover {
-    background-color: #02798F;
-    color: #FFCD5D;
+  background-color: #02798f;
 }
 
 ul {
-    text-align: left;
-    margin-top: 20px;
+  text-align: left;
+  margin-top: 20px;
 }
 
 li {
-    list-style: none;
-    padding: 10px 20px;
-    color: #ffffff;
-    text-transform: capitalize;
-    font-weight: 600;
-    border: 2px solid #025f70;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background: #4EB9CD;
-    transition: all 0.75s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5 ease;
-    font-family: 'Yekan';
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  list-style: none;
+  padding: 10px 20px;
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #05414c;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+  font-family: "Yekan";
 }
 
 li:hover {
-    background: #76CFE0;
+  background: #76cfe0;
 }
 
-li>button {
-    font-weight: normal;
-    background: none;
-    border: none;
-    float: right;
-    color: #025f70;
-    font-weight: 900;
+li > button {
+  font-weight: normal;
+  padding: 5px;
+  background: none;
+  border: none;
+  color: #21d024;
+  font-weight: 900;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+}
+li > button:hover {
+  background-color: #00891e;
 }
 
 .done {
-    background: #51DF70 !important;
-    color: #00891E;
+  background: #51df70 !important;
+  color: #00891e;
 }
 
 .delete {
-    display: none;
+  display: none;
 }
